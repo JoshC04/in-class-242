@@ -1,0 +1,13 @@
+/* Typography */
+
+body {
+    background-color: vvar(--background);
+}
+s
+:root {
+    --background: #8C7961;
+    --highlight: #F2F2F2;
+    --light: #D9CEAD;
+    --medium: #BFA87E;
+    --dark: #8C774F;
+}
