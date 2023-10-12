@@ -1,9 +1,9 @@
 /* Typography */
 
 body {
-    background-color: vvar(--background);
+    background-color: var(--background);
 }
-s
+
 :root {
     --background: #8C7961;
     --highlight: #F2F2F2;
@@ -11,3 +11,41 @@ s
     --medium: #BFA87E;
     --dark: #8C774F;
 }
+
+.parrallax {
+    height: 100%;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+ .beaver01 {
+    background-image: "images/beaver01.jpg";
+ }
+
+ .beaver02 {
+    background-image: "images/beaver02.jpg";
+ }
+
+ .beaver03 {
+    background-image: "images/beaver03.jpg";
+ }
+
+ .beaver04 {
+    background-image: "images/beaver04.jpg";
+ }
+
+ .beaver05 {
+    background-image: "images/beaver05.jpg";
+ }
+
+ .beaver06 {
+    background-image: "images/beaver06.jpg";
+ }
+
+ .beaver07 {
+    background-image: "images/beaver07.jpg";
+ }
