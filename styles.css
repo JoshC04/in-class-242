@@ -33,34 +33,40 @@ header {
 }
 
  .beaver01 {
-    background-image: "images/beaver01.jpg";
+    background-image: url("images/beaver01.jpg");
  }
 
  .beaver02 {
-    background-image: "images/beaver02.jpg";
+    background-image: url("images/beaver02.jpg");
  }
 
  .beaver03 {
-    background-image: "images/beaver03.jpg";
+    background-image: url("images/beaver03.jpg");
  }
 
  .beaver04 {
-    background-image: "images/beaver04.jpg";
+    background-image: url("images/beaver04.jpg");
  }
 
  .beaver05 {
-    background-image: "images/beaver05.jpg";
+    background-image: url("images/beaver05.jpg");
  }
 
  .beaver06 {
-    background-image: "images/beaver06.jpg";
+    background-image: url("images/beaver06.jpg");
  }
 
  .beaver07 {
-    background-image: "images/beaver07.jpg";
+    background-image: url("images/beaver07.jpg");
  }
 
  /* Navigation */
+
+
+
+
+
+
 
 /* Media Query */
 
@@ -76,13 +82,4 @@ header {
         display: flex;
         width: 100%;
     }
-
-
-
-
-
-
-
-
-
 }
