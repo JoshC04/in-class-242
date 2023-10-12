@@ -20,16 +20,15 @@ header {
     margin: 0;
 }
 
-/* Parrallax */
+/* Parallax */
 
-.parrallax {
+.parallax {
     height: 100%;
     opacity: 0.65;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
  .beaver01 {
@@ -62,11 +61,41 @@ header {
 
  /* Navigation */
 
+#main-menu {
+    z-index: 1;
+}
+#main-menu ul {
+    list-style-type: none;
+}
+#main-nav li {
+    
+}
+#main-nav a {
+    text-decoration: none;
+}
 
+/* Body */
 
+img {
 
+    max-width: 90%;
+    max-height: 90%;
+}
 
+.info-section {
+    padding: 0 10px;
+    margin: 0 10px;
+}
+.info-section img{
+    max-width: 300px;
+}
 
+.text-center {
+    height: 200px;
+}
+.columns {
+    height: 200px;
+}
 
 /* Media Query */
 
@@ -80,6 +109,13 @@ header {
 
     header {
         display: flex;
+        width: 100%;
+    }
+
+    #main-menu ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
         width: 100%;
     }
 }
