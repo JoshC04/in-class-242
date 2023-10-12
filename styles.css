@@ -2,6 +2,8 @@
 
 body {
     background-color: var(--background);
+    padding: 0;
+    margin: 0;
 }
 
 :root {
@@ -11,6 +13,14 @@ body {
     --medium: #BFA87E;
     --dark: #8C774F;
 }
+
+header {
+    background-color: var(--light);
+    padding: 0;
+    margin: 0;
+}
+
+/* Parrallax */
 
 .parrallax {
     height: 100%;
@@ -49,3 +59,30 @@ body {
  .beaver07 {
     background-image: "images/beaver07.jpg";
  }
+
+ /* Navigation */
+
+/* Media Query */
+
+@media (min-width: 900px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header {
+        display: flex;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+}
